@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'wenyue';
+    src: url('../fonts/wenyue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'jingxinkai';
+    src: url('../fonts/jingxinkai.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+#fullpage{
+	width: 100%;
+	max-width: 480px;
+	margin: 0px auto;
+}
+h2{
+	text-align: center;
+}
+h2:after{
+	content: "";
+	width: 80%;
+	border: 1px dashed #000;
+	display: block;
+	margin: 0px auto;
+}
+.frontPage{
+}
+.frontPage h1{
+	text-align: center;
+	color: #48c0a3;
+	letter-spacing: 0;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135
+}
+.frontPage img{
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+	max-width: 480px;
+}
+.secondPage{
+	background-color: #758a99;
+}
+.secondPage p{
+	font-family: "wenyue";
+	font-size: 18px;
+	padding: 0px 25px;
+}
+.secondPage p span{
+	color: #c3272b;
+}
+.secondPage h3{
+	font-family: "jingxinkai";
+	font-size: 22px;
+	padding: 0px 25px;
+}
+.dataPage .fp-tableCell{
+	vertical-align: baseline;
+	height: 100%;
+}
+#childRatio{
+	display: block;
+	margin: 0px auto;
+	height: 40%!important;
+	margin: 3em auto;
+}
+.dataPage p{
+	font-family: "wenyue";
+	font-size: 18px;
+	padding: 0px 25px;
+}
+.dataPage p span{
+	color: #c3272b;
+}
+#childWilling, #childWillingDetails{
+	display: block;
+	margin: 0px auto;
+	margin: 0em auto;
+}
+.dataPage .cutOff{
+	width: 80%;
+	margin: 2em auto;
+	border: 1px dashed #000;
+}
+.feePage .feeList{
+	text-align: center;
+	visibility: hidden;
+	/*animation: zoomIn 5s infinite;
+	-webkit-animation: zoomIn 5s 1;*/
+}
+.feePage .feeList img{
+	display: inline-block;
+	width: 30%;
+	max-width: 100%;
+}
+.feePage .feeList p{
+	font-family: "wenyue";
+	font-size: 18px;
+	padding: 0px 25px;
+}
+.feePage .feeList span{
+	color: #c3272b;
+}
+.sharePage{
+	text-align: center;
+}
+.sharePage h3{
+	font-family: "jingxinkai";
+	font-size: 22px;
+	padding: 0px 25px;
+	margin: 2em auto;
+}
+.sharePage .shareIcon{
+	display: inline-block;
+}
+.sharePage .like{
+	margin: 2em auto;
+}
+.sharePage .like img{
+	vertical-align: middle;
+}
+.sharePage .like button{
+	vertical-align: middle;
+	background-color: #44cef6;
+	font-family: "wenyue";
+	font-size: 22px;
+	border-radius: 5px;
+}
+
+@keyframes zoomIn{
+	from{
+		transform: scale(0,0);
+	}
+	to{
+		transform: scale(1,1);
+	}
+}
